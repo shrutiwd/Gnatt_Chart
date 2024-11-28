@@ -1,0 +1,44 @@
+.gantt-chart {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gantt-chart h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .task-name {
+    width: 150px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .task-bar {
+    height: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-dates {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
